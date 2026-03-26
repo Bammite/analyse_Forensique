@@ -1,0 +1,48 @@
+===== RAPPORT D'ANALYSE RESEAU =====
+Fichier analyse : capture.pcap
+Date d'analyse  : 2026-03-26 02:57:10.629766
+
+📊 STATISTIQUES RESEAU
+Total paquets analyses : 4981
+Paquets IP             : 4981
+Paquets TCP            : 4810
+Paquets UDP            : 112
+Paquets UDP suspectes   : 6
+Duree capture          : 214.46 secondes
+
+Top 5 IP sources :
+  192.168.26.144 -> 4838 paquets
+  192.168.26.143 -> 132 paquets
+  192.168.26.134 -> 11 paquets
+
+Top 5 IP destinations :
+  192.168.26.1 -> 1739 paquets
+  192.168.26.134 -> 1487 paquets
+  192.168.26.254 -> 1463 paquets
+  192.168.26.143 -> 154 paquets
+  192.168.26.144 -> 138 paquets
+
+Top 5 ports cibles :
+  Port 53 -> 192 fois
+  Port 40088 -> 114 fois
+  Port 9999 -> 13 fois
+  Port 110 -> 13 fois
+  Port 35768 -> 12 fois
+
+Protocoles observes :
+  TCP -> 4810
+  UDP -> 112
+
+🧠 RESUME FINAL
+[!] Trafic UDP suspect detecte sur le port 9999
+    Nombre d'occurrences : 6
+[!] Activite de scan SYN detectee
+[!] Activite de scan agressif detectee
+
+Exemples de donnees UDP capturees :
+  2026-03-26 01:38:41.077052 | 192.168.26.134 -> 192.168.26.144 | Port 9999 | Heure de la cible : 01:38:41
+  2026-03-26 01:38:46.073598 | 192.168.26.134 -> 192.168.26.144 | Port 9999 | Heure de la cible : 01:38:46
+  2026-03-26 01:38:51.075552 | 192.168.26.134 -> 192.168.26.144 | Port 9999 | Heure de la cible : 01:38:51
+  2026-03-26 01:38:56.076049 | 192.168.26.134 -> 192.168.26.144 | Port 9999 | Heure de la cible : 01:38:56
+  2026-03-26 01:39:01.094661 | 192.168.26.134 -> 192.168.26.144 | Port 9999 | Heure de la cible : 01:39:01
+  2026-03-26 01:39:06.092101 | 192.168.26.134 -> 192.168.26.144 | Port 9999 | Heure de la cible : 01:39:06
