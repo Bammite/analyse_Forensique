@@ -26,7 +26,7 @@ SYN_SCAN_MIN_PORTS = 5
 AGGRESSIVE_SCAN_MIN_PORTS = 30
 
 # Gemini : clé à mettre dans une variable d'environnement
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyA-jhd-0vSNxosHwKWuW63cm6IRZdeHMJE").strip()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemma-3-27b-it").strip()
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{0}:generateContent".format(GEMINI_MODEL)
 
